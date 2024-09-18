@@ -4,6 +4,7 @@ body{
     display:flex;
     flex-direction: column;
     justify-content: stretch;
+    font-family: Arial, sans-serif;
 }
 
 /* Header / Footer */
@@ -83,15 +84,43 @@ ul{
 
 
 /* Section 2 */
-#section2{
-    display:flex;
-}
-
-
 .list-square{
     width: 100px;
     height: 100px;
-    border: rgb(34, 34, 249) solid;
+    border: #3882F6 solid;
     border-width: 4px;
-    border-radius: 5px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+#info-square-list{
+    display: flex;
+    gap: 12px;
+    text-align: center;
+}
+
+#info-header{
+    font-size: 36px;
+    font-weight: 1000;
+    color: #1F2937;
+    text-align: center;
+}
+
+
+/* Section 3 */
+#section3{
+    background-color: #E5E7EB;
+    padding: 50px 100px;
+}
+
+#sect3-quote{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+    text-align: left;
+}
+
+#Thor{
+    text-align: end;
 }
